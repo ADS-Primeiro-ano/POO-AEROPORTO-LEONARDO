@@ -18,12 +18,12 @@ export class Endereco {
         pais: string,
     ){
         this.id = Math.random() * (100 * 100000);
-        this.rua = this.rua;
-        this.numero = this.numero;
-        this.complemento = this.complemento;
-        this.bairro = this.bairro;
-        this.cidade = this.cidade;
-        this.estado = this.estado;
-        this.pais = this.pais;
+        this.rua = rua;
+        this.numero = numero;
+        this.complemento = complemento;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.pais = pais;
     }
 }

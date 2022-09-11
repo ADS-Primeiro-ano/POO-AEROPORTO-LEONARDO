@@ -16,11 +16,11 @@ export class Horario{
         qtdeExecutiva: number,
     ){
         this.id = Math.random() * (100 * 100000)
-        this.codigo = this.codigo;
-        this.partida = this.partida;
-        this.chegada = this.chegada;
-        this.qtdeEconomica = this.qtdeEconomica;
-        this.qtdePrimeira = this.qtdePrimeira;
-        this.qtdeExecutiva = this.qtdeExecutiva;
+        this.codigo = codigo;
+        this.partida = partida;
+        this.chegada = chegada;
+        this.qtdeEconomica = qtdeEconomica;
+        this.qtdePrimeira = qtdePrimeira;
+        this.qtdeExecutiva = qtdeExecutiva;
     }
 }
